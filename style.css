@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.custom-box{
+    margin: 50px;
+    border: 2px solid rgb(3, 139, 193);
+    border-radius: 10px;
+    box-shadow: 0px 4px 100px 0px rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#parts{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+/* section{
+    margin: 0;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+   
+}*/
+#img img{
+    width: 100%;
+    padding: 10px;
+    height: 75vh;
+    border: 1px solid rgb(58, 97, 212);
+} 
